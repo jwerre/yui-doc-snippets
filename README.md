@@ -1,9 +1,8 @@
-# YUIDoc Snippets for [Atom](http://atom.io)
+# YUIDoc Snippets for [Atom Editor](http://atom.io)
 
 A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** and **Coffeescript**.
 
 ## Snippets
-
 
 - \*attr (js) or #attr (coffee)
 		###*
@@ -32,7 +31,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 			myClass = new MyClass()
 		###
 
-- *elem (js) or #elem (coffee)
+- \*elem (js) or #elem (coffee)
 		###*
 		description
 		
@@ -42,7 +41,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@interface MyElement
 		###
 
-- *event (js) or #event (coffee)
+- \*event (js) or #event (coffee)
 		###*
 		Event triggered when 
 		
@@ -50,7 +49,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@param {Object} options description
 		###
 
-- *main (js) or #main (coffee)
+- \*main (js) or #main (coffee)
 		###*
 		description
 		
@@ -59,7 +58,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@submodule widget-foo
 		###
 
-- *meth (js) or #meth (coffee)
+- \*meth (js) or #meth (coffee)
 		###*
 		description
 		
@@ -78,7 +77,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@return {Object}
 		###
 
-- *mod (js) or #mod (coffee)
+- \*mod (js) or #mod (coffee)
 		###*
 		description
 		
@@ -89,7 +88,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@submodule
 		###
 
-- *prop (js) or #prop (coffee)
+- \*prop (js) or #prop (coffee)
 		###*
 		description
 		
@@ -102,4 +101,3 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@optional
 		@required
 		###
-# yui-doc-snippets
