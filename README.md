@@ -5,7 +5,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 ## Snippets
 
 
-- *attr (js) or #attr (coffee)
+- \*attr (js) or #attr (coffee)
 		###*
 		description
 		
@@ -15,7 +15,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		@default "false"
 		###
 
-- *class (js) or #class (coffee)
+- \*class (js) or #class (coffee)
 		###*
 		description
 		

@@ -1,0 +1,27 @@
+# Indicates that the block describes a custom event that the class can fire at some interesting moment of code execution. An @event block is somewhat similar to a @method block, except that @return is irrelevant, and @param is used to describe properties hanging off the event object that callbacks listening for the event receive.
+# Ideally, an @event block should reside above the code that defines the event, even if that code is just a simple string declaration. If you find that your @event block is "floating in space," you should at least place it underneath the class that owns the event, grouped with any other events that the class can fire.
+# See also: @bubbles, @class, @for, @param.
+
+'.source.coffee':
+	'Custom event':
+		'prefix': '#event'
+		'body': """
+		###*
+		${1:Event triggered when }
+
+		@event ${2:error}
+		@param {${3:Object}} ${4:options} ${5:description}
+		###
+		"""
+
+'.source.js':
+	'Custom event':
+		'prefix': '*event'
+		'body': """
+		/**
+		${1:Event triggered when }
+
+		@event ${2:error}
+		@param {${3:Object}} ${4:options} ${5:description}
+		**/
+		"""

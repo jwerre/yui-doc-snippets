@@ -1,0 +1,33 @@
+# Indicates that the block describes a group of related classes. For example, YUI's app module includes classes such as App.Base, Model, and Router. You can optionally break modules up into submodules.
+# YUIDoc requires you to provide at least one module per source tree. Since there isn't always an obvious place to insert module documentation in JavaScript source, the convention is to declare your module at the top of the file that contains your module's "primary" or "base" class.
+# See also: @class, @for, @main, @submodule.
+
+'.source.coffee':
+	'Group of related classes':
+		'prefix': '#mod'
+		'body': """
+		###*
+		${1:description}
+		
+		@module ${2:widget}
+		${3:@class}
+		${4:@for}
+		${5:@main}
+		${6:@submodule}
+		###
+		"""
+
+'.source.js':
+	'Group of related classes':
+		'prefix': '*mod'
+		'body': """
+		/**
+		${1:description}
+		
+		@module ${2:widget}
+		${3:@class}
+		${4:@for}
+		${5:@main}
+		${6:@submodule}
+		**/
+		"""

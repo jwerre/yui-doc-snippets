@@ -1,0 +1,46 @@
+# Indicates that the block describes a class. In JavaScript, this is generally an object with a constructor function. The value of @class should be the string that identifies the functional class on its parent object. For example, the @class for Y.DD.Drag would be Drag (and its @namespace would be DD).
+# YUIDoc expects methods, properties, attributes, and events to belong to a class, so in general you must provide at least one class for each module in your source tree. A @class block should reside just above the class's constructor function, and above all methods, events, properties, and attributes that belong to the class.
+# A @class tag should be paired with either a @constructor tag or a @static tag.
+# See also: @constructor, @extends, @extensionfor, @for, @module, @namespace, @static, @uses.
+
+'.source.coffee':
+	'New Class':
+		'prefix': '#class'
+		'body': """
+		###*
+		${1:description}
+
+		@class ${2:MyClass}
+		@param {${4:Object}} ${5:options} ${6:description}
+		${7:@constructor}
+		${8:@static}
+		${9:@extends}
+		${10:@for}
+		${11:@module}
+		${12:@namespace}
+		${13:@uses}
+		${14:@example
+			myClass = new MyClass()}
+		###
+		"""
+
+'.source.js':
+	'New Class':
+		'prefix': '*class'
+		'body': """
+		/**
+		${1:description}
+
+		@class ${2:MyClass}
+		@param {${4:Object}} ${5:options} ${6:description}
+		${7:@constructor}
+		${8:@static}
+		${9:@extends}
+		${10:@for}
+		${11:@module}
+		${12:@namespace}
+		${13:@uses}
+		${14:@example
+			myClass = new MyClass()}
+		**/
+		"""

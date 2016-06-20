@@ -1,0 +1,30 @@
+# Indicates that the block describes a Custom Element. The @attribute tag works as a attribute of the element when you specify a @element tag. You can also specify the @parents, @contents, and @interface tag for the element.
+# See also: @attribute, @parents, @contents, @interface.
+
+'.source.coffee':
+	'Custom Element Block':
+		'prefix': '#elem'
+		'body': """
+		###*
+		${1:description}
+
+		@element ${2:<div>}
+		${3:@parents <body>}
+		${4:@contents <span>}
+		${4:@interface MyElement}
+		###
+		"""
+
+'.source.js':
+	'Custom Element Block':
+		'prefix': '*elem'
+		'body': """
+		/**
+		${1:description}
+
+		@element ${2:<div>}
+		${3:@parents <body>}
+		${4:@contents <span>}
+		${4:@interface MyElement}
+		**/
+		"""

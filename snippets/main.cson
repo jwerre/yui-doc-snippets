@@ -1,0 +1,27 @@
+# When YUIDoc parses a module's directory, there may be several files in this directory that provides documentation for that module and it's submodules. YUIDoc will attempt to determine which module contains the main description for this module. If it has trouble doing that, you can add a @main tag to your module/submodule description and YUIDoc will use this block as the main module description on the modules API landing page.
+
+'.source.coffee':
+	'Module directory':
+		'prefix': '#main'
+		'body': """
+		###*
+		${1:description}
+
+		@main ${2:widget}
+		${3:@module widget}
+		${4:@submodule widget-foo}
+		###
+		"""
+
+'.source.coffee':
+	'Module directory':
+		'prefix': '*main'
+		'body': """
+		/**
+		${1:description}
+
+		@main ${2:widget}
+		${3:@module widget}
+		${4:@submodule widget-foo}
+		**/
+		"""

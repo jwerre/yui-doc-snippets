@@ -1,0 +1,27 @@
+{
+  "name": "yui-doc-snippets",
+  "version": "0.0.1",
+  "author": "Jonah Werre <jonah@surveyplanet.com>",
+  "description": "A collection of YUIDoc snippets for Atom Editor",
+  "keywords": [
+    "yui",
+    "jsdoc",
+    "coffeescript",
+    "api",
+    "documentation",
+    "docs",
+    "apidocs"
+  ],
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwerre/yui-doc-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jwerre/yui-doc-snippets/issues"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+# Indicates that the block describes a property belonging to the current class.
+# As with methods, a @property block should always reside directly above the point where the property is defined. At a minimum, you should also provide the property's @type, even if the value is "any" or "mixed".
+# See also: @attribute, @default, @class, @for, @type.
+
+'.source.coffee':
+	'Class property':
+		'prefix': '#prop'
+		'body': """
+		###*
+		${1:description}
+
+		@property ${2:myProperty}
+		@type {${3:Boolean}}
+		@default "${4:false}"
+		${5:@static}
+		${6:@readOnly}
+		${7:@writeOnce}
+		${8:@optional}
+		${9:@required}
+		###
+		"""
+
+'.source.js':
+	'Class property':
+		'prefix': '*prop'
+		'body': """
+		/**
+		${1:description}
+
+		@property ${2:myProperty}
+		@type {${3:Boolean}}
+		@default "${4:false}"
+		${5:@static}
+		${6:@readOnly}
+		${7:@writeOnce}
+		${8:@optional}
+		${9:@required}
+		**/
+		"""

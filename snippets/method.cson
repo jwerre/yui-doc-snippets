@@ -1,0 +1,49 @@
+# Indicates that the block describes a method for the current class. By default, the "current" class is the last class that YUIDoc parsed, but you can reset this with the @for tag.
+# A @method block should always reside directly above the method's definition. At a minimum, you should also document any parameters (@param) and return values (@return).
+# See also: @chainable, @class, @constructor, @for, @param, @return, @throws, @static.
+
+'.source.coffee':
+	'Class method':
+		'prefix': '#meth'
+		'body': """
+		###*
+		${1:description}
+
+		@method ${2:MyMethod}
+		@param {${3:Object}} ${4:options} ${5:description}
+		${6:@param {String} options.name description
+		@param {Function} callback callback function
+		@param {String} callback.error error message
+		@param {Object} callback.result result}
+		${7:@constructor}
+		${8:@throws}
+		${9:@static}
+		${10:@async}
+		${11:@chainable}
+		${12:@private}
+		@return {${13:Object}}
+		###
+		"""
+
+'.source.js':
+	'Class method':
+		'prefix': '*meth'
+		'body': """
+		/**
+		${1:description}
+
+		@method ${2:MyMethod}
+		@param {${3:Object}} ${4:options} ${5:description}
+		${6:@param {String} options.name description
+		@param {Function} callback callback function
+		@param {String} callback.error error message
+		@param {Object} callback.result result}
+		${7:@constructor}
+		${8:@throws}
+		${9:@static}
+		${10:@async}
+		${11:@chainable}
+		${12:@private}
+		@return {${13:Object}}
+		**/
+		"""
