@@ -1,6 +1,6 @@
 {
   "name": "yui-doc-snippets",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Jonah Werre <jonah@surveyplanet.com>",
   "description": "A collection of YUIDoc snippets for Atom Editor",
   "keywords": [
