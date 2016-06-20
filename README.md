@@ -5,6 +5,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 ## Snippets
 
 - \*attr (js) or #attr (coffee)
+
 		###*
 		description
 		
@@ -15,6 +16,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*class (js) or #class (coffee)
+
 		###*
 		description
 		
@@ -32,6 +34,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*elem (js) or #elem (coffee)
+
 		###*
 		description
 		
@@ -42,6 +45,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*event (js) or #event (coffee)
+
 		###*
 		Event triggered when 
 		
@@ -50,6 +54,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*main (js) or #main (coffee)
+
 		###*
 		description
 		
@@ -59,6 +64,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*meth (js) or #meth (coffee)
+
 		###*
 		description
 		
@@ -78,6 +84,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*mod (js) or #mod (coffee)
+
 		###*
 		description
 		
@@ -89,6 +96,7 @@ A collection of YUIDoc snippets for Atom Editor. Works in both **Javascript** an
 		###
 
 - \*prop (js) or #prop (coffee)
+
 		###*
 		description
 		
